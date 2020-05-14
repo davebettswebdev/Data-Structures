@@ -19,6 +19,9 @@ class Stack:
     def __len__(self):     
         return self.size
         # return len(self.storage)
+    
+    def len(self):
+        return self.size
 
     def push(self, value):  
         self.storage.add_to_head(value)
